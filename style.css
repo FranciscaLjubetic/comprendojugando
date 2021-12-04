@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/tropfen-bunt-flussig-hintergrund-1583102937tFs.jpg');
+    object-fit: cover;
+}
+
+
+#footer, .navbar{
+    background: linear-gradient(90deg, rgba(56,175,246,0.577468487394958) 0%, rgba(8,112,152,0.6110819327731092) 100%);
+}
+
+#main_container{
+    padding: 0 0 0 0px
+}
+
+.navbar a, .nav-link{
+    color: rgb(238, 204, 36);
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+h1, h3 {
+    /*font-family: 'Bangers', cursive;*/
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(253, 253, 250);
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+#tira_de_cursos{
+    min-height:76vh;
+}
+.padre_caja_curso{
+    text-align:center;
+    padding: 10px;
+}
+.navbar-toggler{
+    background-color: rgb(248, 221, 113); 
+}
+.caja_curso{
+    position: relative;
+    margin:0px auto;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(248, 221, 113);
+    border-radius: 20%;
+    /*-webkit-clip-path: polygon(0% 29%, 13% 28%, 23% 25%, 26% 17%, 27% 8%, 27% 0, 44% 0%, 45% 11%, 50% 20%, 59% 20%, 61% 8%, 62% 0%, 79% 0, 79% 9%, 82% 21%, 91% 25%, 100% 26%, 100% 75%, 92% 74%, 81% 77%, 81% 89%, 81% 100%, 59% 100%, 59% 88%, 60% 78%, 52% 74%, 44% 79%, 45% 89%, 44% 100%, 24% 100%, 23% 78%, 15% 69%, 0 72%);
+    clip-path: polygon(0% 29%, 13% 28%, 23% 25%, 26% 17%, 27% 8%, 27% 0, 44% 0%, 45% 11%, 50% 20%, 59% 20%, 61% 8%, 62% 0%, 79% 0, 79% 9%, 82% 21%, 91% 25%, 100% 26%, 100% 75%, 92% 74%, 81% 77%, 81% 89%, 81% 100%, 59% 100%, 59% 88%, 60% 78%, 52% 74%, 44% 79%, 45% 89%, 44% 100%, 24% 100%, 23% 78%, 15% 69%, 0 72%);*/
+}
+
+.caja_curso:hover{
+    background-color: rgb(248, 113, 196);
+}
+
+.caja_curso a{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bolder;
+    font-size:x-large;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#recomendaciones_libros, #recomendaciones_videos, #recomendaciones_juegos {
+    min-width: 350px;
+    margin:50px auto;
+    background-color: rgb(248, 221, 113);
+    
+}
+#recomendaciones_juegos{
+    min-height: 600px;
+    border-radius: 7%;
+}
+
+#recomendaciones_libros, #recomendaciones_videos{
+    min-height: 275px;
+    border-radius: 10%;
+}
+
