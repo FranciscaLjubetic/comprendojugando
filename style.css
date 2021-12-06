@@ -69,7 +69,7 @@ transform-origin: 0 0; /* see note above */
 #main_container{
     padding: 0 0 0 0px;
     /*background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/tropfen-bunt-flussig-hintergrund-1583102937tFs.jpg');*/
-    background-image: url('/img/fondobody.jpg');
+    background-image: url("/img/fondobody.jpg");
     object-fit: cover;
 }
 .texto-claro{
@@ -107,7 +107,7 @@ h1, h3 {
 
 #tira_de_cursos, .juegos_por_curso{
     min-height:76vh;
-    background-image: url('/img/fondobody.jpg');
+    background-image: url("/img/fondobody.jpg");
     object-fit: cover;
 }
 #detalle_curso{
