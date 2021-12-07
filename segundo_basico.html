@@ -27,7 +27,17 @@
             AOS.init();
         </script>
 
-    
+        <div id="primera_pantalla" class="container-fluid primera_pantalla_class m-0 text-center p-4" style="background: linear-gradient(176deg, rgba(56,175,246,0.577468487394958) 0%, rgba(207,232,247,1) 57%, rgba(247,247,247,1) 100%);">
+            <img src="img/buhito.png" alt="logo" style="max-height: 16em; width:auto" class="pt-4 img-fluid">
+            <h1 id="titulo_neon" class="row text-center d-block display-1 p-0 m-0" style="color: rgb(238, 128, 196); line-height:80%"> <br><br> COMPRENDO JUGANDO </h1> 
+            
+
+            <div class="loadingio-spinner-ellipsis-mnej2v1rmv"><div class="ldio-iczp7kjxwwk" style="max-width: 100px; height:auto;">
+                <div></div><div></div><div></div><div></div><div></div>
+                </div></div>
+            
+        </div>
+
         <div id="main_container" class="container-fluid p-0">
             <!--NAVBAR-->
             <nav class="navbar navbar-expand-lg">
@@ -39,10 +49,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             </li>
                             <li class="nav-item dropdown">
@@ -74,162 +81,106 @@
             
 
             <!--estructura curso-->
-            <div id="detalle_curso">
+            <div class="detalle_curso">
                 <div><!--TITULO-->
-                    <h3 class="display-6 texto-oscuro">Juegos para cada libro</h3>
+                    <h2 class="texto-oscuro text-center ms-3 pt-4"> Segundo Básico: <br> <em> Juegos para cada libro</em></h2>
                 </div>
-                <div id="libros_por_curso" class="section text-center px-2 py-0 m-0">
+                
+                <div class="libros_por_curso section text-center px-2 my-2">
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-5" style="text-align:center!important; padding: 10px; display:flexbox;">
                         <div class="col  my-4" style="text-align:center!important">
-                            <div style="text-align:center; padding: 10px; ">
-                                <img src="img/libros/igual_a_mi_distinto_a_ti.jpeg" class="imagenes_libros" alt="...">
+                            <div style="text-align:center; margin: 20px; ">
+                            <img src="img\libros\segundo_basico\la_bruja_mom.jpg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Igual a mí, distinto a tí</h5>
-                                    <p class="texto-oscuro">Francisca Solar</p>
-                                    <a id="igual_a_mi_click" href="#igual_a_mi" value="1" class="btn btn_curso">Ver juegos y videos del libro</a>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">La bruja Mom</h5>
+                                    <p class="texto-oscuro">Vivi Escrivá</p>
+                                    <a id="la_bruja_mom_click" href="#la_bruja_mom" value="1" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col my-4"  style="text-align:center!important">
-                            <div style="text-align:center; padding: 10px; height: 375px;">
-                                <img src="img/libros/julieta_estate_quieta.jpeg" class="imagenes_libros" alt="...">
+                            <div style="text-align:center; margin: 10px; height: 390px;">
+                                <img src="img\libros\segundo_basico\que_apetito_tiene_el_zorrito.jpg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Julieta, estate quieta</h5>
-                                    <p class="texto-oscuro">Rosemary Wells</p>
-                                    <a id="julieta_estate_quieta_click" href="#julieta_estate_quieta" value="2" class="btn btn_curso">Ver juegos y videos del libro</a>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">Que apetito tiene el zorrito</h5>
+                                    <p class="texto-oscuro">Claudia Rueda</p>
+                                    <a id="que_apetito_tiene_el_zorrito_click" href="#que_apetito_tiene_el_zorrito" value="2" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col my-4" style="text-align:center!important">
-                            <div style="text-align:center; padding: 10px; height: 375px;">
-                                <img src="img/libros/un_perro_confundido.jpeg" class="imagenes_libros" alt="...">
+                            <div style="text-align:center; margin: 10px; height: 390px;">
+                                <img src="img\libros\segundo_basico\leon_y_su_tercer_deseo.jpg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Un perro confundido</h5>
-                                    <p class="texto-oscuro">Cecilia Beauchat</p>
-                                    <a id="un_perro_confundido_click" href="#un_perro_confundido" value="3" class="btn btn_curso">Ver juegos y videos del libro</a>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">León y su tercer deseo</h5>
+                                    <p class="texto-oscuro">Beatriz Rojas</p>
+                                    <a id="leon_y_su_tercer_deseo_click" href="#leon_y_su_tercer_deseo" value="3" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col my-4" style="text-align:center!important">
-                            <div  style="text-align:center; padding: 10px; height: 375px;">
-                                <img src="img/libros/el_gigante_egoista.jpeg" class="imagenes_libros" alt="...">
+                            <div  style="text-align:center; margin: 10px; height: 390px;">
+                                <img src="img\libros\segundo_basico\el_fantasma_de_canterville.jpg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">El gigante egoísta</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">El fantasma de Canterville</h5>
                                     <p class="texto-oscuro">Oscar Wilde</p>
-                                    <a id="el_gigante_egoista_click" href="#el_gigante_egoista" value="4" class="btn btn_curso">Ver juegos y videos del libro</a>
+                                    <a id="el_fantasma_de_canterville_click" href="#el_fantasma_de_canterville" value="4" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col my-4" style="text-align:center!important">
-                            <div style="text-align:center; padding: 10px; height: 375px;">
-                                <img src="img/libros/el_caleuche.jpeg" class="imagenes_libros" alt="...">
+                            <div  style="text-align:center; margin: 10px; height: 390px;">
+                                <img src="img\libros\segundo_basico\el_cocodrilo_al_que_no_le_gustaba_el_agua.jpg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">El Caleuche</h5>
-                                    <p class="texto-oscuro">Imactiva</p>
-                                    <a id="el_caleuche_click" href="#el_caleuche" value="5" class="btn btn_curso">Ver juegos y videos del libro</a>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">El cocodrilo al que no le gustaba el agua</h5>
+                                    <p class="texto-oscuro">Gemma Merino</p>
+                                    <a id="el_cocodrilo_al_que_no_le_gustaba_el_agua_click" href="#el_fantasma_de_canterville" value="4" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="igual_a_mi" class="juegos_por_curso container-fluid m-0" style="display:none;"><!--IGUAL A MI DISTINTO A TI-->
+                <div id="la_bruja_mom" class="juegos_por_curso container-fluid m-0" style="display:none;"><!--LA BRUJA MOM-->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">Igual a mí, distinto a tí</h3>
+                        <h3 class="m-4 text-white display-4">La Bruja Mom</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="http://2026.holograma.cl/2/libros/2.%20Igual%20a%20mi%20Distinto%20a%20ti.pdf" value="1">
+                            <a href="http://www.escuelahorizonte.cl/wp-content/uploads/04-La-Bruja-Mon-P-Mateos.pdf" value="1">
                                 <figure class="figure">
-                                    <img src="img/libros/igual_a_mi_distinto_a_ti.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <img src="img\libros\segundo_basico\la_bruja_mom.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XKGsXRG5mTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PrK7FbH2C7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
 
+                    <!--carrusel bruja mom-->
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                        <div class="carousel-item active videos">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=21&templateId=69"  frameborder="0" allowfullscreen></iframe></div>
-                        </div>
-                
-                        <div class="carousel-item videos">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=21&templateId=30"  frameborder="0" allowfullscreen></iframe>            </div>
-                        </div>
-                
-                        <div class="carousel-item videos">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=1&templateId=8"  frameborder="0" allowfullscreen></iframe>  </div>
-                        </div>
-                
-                        <div class="carousel-item videos">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=1&templateId=75"  frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-                
-                <!--PERRO CONFUNDIDO-->
-                <div id="un_perro_confundido" class="juegos_por_curso container-fluid m-0" style="display:none;">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">Un perro confundido</h3>
-                        <div class="col foto_libro_descargar text-center">
-                            <a href="https://bibliodar.files.wordpress.com/2014/05/un-perro-confundido-cecilia-beuchat.pdf" value="1">
-                                <figure class="figure">
-                                    <img src="img/libros/un_perro_confundido.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DYMLA9b4h_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    
-                    <!--carrusel perro confundido-->
-                    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-                        <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb01e262af7047a68a5586517aaa4fa0?themeId=42&templateId=70" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/e271743105e64979927b1758e368a877?themeId=21&templateId=30"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb01e262af7047a68a5586517aaa4fa0?themeId=21&templateId=30" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/e271743105e64979927b1758e368a877?themeId=1&templateId=5"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb01e262af7047a68a5586517aaa4fa0?themeId=1&templateId=38" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/e271743105e64979927b1758e368a877?themeId=21&templateId=69"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/fb01e262af7047a68a5586517aaa4fa0?themeId=1&templateId=75" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/e271743105e64979927b1758e368a877?themeId=23&templateId=49"  frameborder="0" allowfullscreen></iframe>
                             </div>
-                        </div>
-                        
+                        </div>            
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -241,51 +192,51 @@
                         </button>
                     </div>
 
-
-                    
                 </div>
 
-                <!--JULIETA ESTATE QUIETA-->
-                <div id="julieta_estate_quieta" class="juegos_por_curso container-fluid m-0" style="display:none;">
+                
+                <!--QUE APETITO QUE TIENE EL ZORRITO-->
+                <div id="que_apetito_tiene_el_zorrito" class="juegos_por_curso container-fluid m-0" style="display:none;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">¡Julieta, estate quieta!</h3>
+                        <h3 class="m-4 text-white display-4">Qué apetito que tiene el zorrito</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="https://www.sanfranciscodeasistemuco.cl/aula_virtual/MATERIAL_2021/libros/JULIETA%20ESTATE%20QUIETA..pdf" value="1">
+                            <a href="https://drive.google.com/file/d/11a6-B9gDB1auJrQ6T0dCpCAIHupf6SkM/view" value="1">
                                 <figure class="figure">
-                                    <img src="img/libros/julieta_estate_quieta.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <img src="img\libros\segundo_basico\que_apetito_tiene_el_zorrito.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UoepiVaW_20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9tATPmROYbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
-                    <!--carrusel julieta-->
+                    <!--carrusel apetito el zorro-->
                     <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
                         <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/0bb5a33286b5478a9772901750cb7f98?themeId=21&templateId=30" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/11b5bba417c04a1785bfe79c1720b2ef?themeId=2&templateId=5"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/0bb5a33286b5478a9772901750cb7f98?themeId=1&templateId=5" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/11b5bba417c04a1785bfe79c1720b2ef?themeId=21&templateId=69"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/0bb5a33286b5478a9772901750cb7f98?themeId=21&templateId=69" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/11b5bba417c04a1785bfe79c1720b2ef?themeId=2&templateId=30"  frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <div class="carousel-item">
+
+                            <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/0bb5a33286b5478a9772901750cb7f98?themeId=23&templateId=49" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://wordwall.net/es/embed/11b5bba417c04a1785bfe79c1720b2ef?themeId=23&templateId=49"  frameborder="0" allowfullscreen></iframe>
                             </div>
-                        </div>
-                        
+                            </div>
+                            
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -296,46 +247,51 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+
+
+
+                    
                 </div>
 
-                <!--GIGANTE EGOISTA-->
-                <div id="el_gigante_egoista" class="juegos_por_curso container-fluid m-0" style="display:none;">
+                <!--LEON Y SU TERCER DESEO-->
+                <div id="leon_y_su_tercer_deseo" class="juegos_por_curso container-fluid m-0" style="display:none;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">El gigante egoísta</h3>
+                        <h3 class="m-4 text-white display-4">León y su tercer deseo</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="https://www.sanfranciscodeasistemuco.cl/aula_virtual/MATERIAL_2021/libros/JULIETA%20ESTATE%20QUIETA..pdf" value="1">
+                            <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2FtcG9zZGVtYWlwdS5jbHxhdWxhLXZpcnR1YWx8Z3g6NjZlZjJhNWM4YjQ5MTMw" value="1">
                                 <figure class="figure">
-                                    <img src="img/libros/el_gigante_egoista.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <img src="img\libros\segundo_basico\leon_y_su_tercer_deseo.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/H8X8Y_YMDEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yf-b3HdnrUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
-                    <!--carrusel gigante egoista -->
+                    <!--LEON Y SU TERCER DESEO -->
+                    <!--LEON Y SU TERCER DESEO -->
                     <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
                         <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/8231f1253c364b499eb719c357ff4985?themeId=1&templateId=46" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/5571a9a2d4de47dd9a2479129a380ece?themeId=21&templateId=69" width="500" height="380" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/8231f1253c364b499eb719c357ff4985?themeId=1&templateId=5" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/5571a9a2d4de47dd9a2479129a380ece?themeId=1&templateId=5" width="500" height="380" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/6fdfc5d7683045a28cbf9b2f22322c0b?themeId=23&templateId=49" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/5571a9a2d4de47dd9a2479129a380ece?themeId=21&templateId=30" width="500" height="380" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/8231f1253c364b499eb719c357ff4985?themeId=2&templateId=10" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <iframe src="https://wordwall.net/es/embed/5571a9a2d4de47dd9a2479129a380ece?themeId=1&templateId=8" width="500" height="380" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>          
                         </div>
@@ -348,49 +304,50 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+
                 </div>
 
-                <!--CALEUCHE-->
-                <div id="el_caleuche" class="juegos_por_curso container-fluid m-0" style="display:none;">
+                <!--El fantasma de canterville-->
+                <div id="el_fantasma_de_canterville" class="juegos_por_curso container-fluid m-0" style="display:none;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">El Caleuche</h3>
+                        <h3 class="m-4 text-white display-4">El fantasma de Canterville</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="http://www.imactiva.cl/pdf/el_caleuche_vista_previa.pdf" value="1">
+                            <a href="https://biblioteca.org.ar/libros/10111.pdf" value="1">
                                 <figure class="figure">
-                                    <img src="img/libros/el_caleuche.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <img src="img\libros\segundo_basico\el_fantasma_de_canterville.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0Yh4D56c9Yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U1XMrhdyDJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
-                    <!--carrusel caleuche-->
+                    <!--carrusel EL FANTASMA DE CANTERVILLE-->
                     <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/79895687538c4bbd956b59b47818dfb9?themeId=21&templateId=25" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <div class="carousel-item active">
+                                <div class="card">
+                                <iframe src="https://wordwall.net/es/embed/d9b74bc6de0341c8a9d2bf93acc99bab?themeId=1&templateId=8" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/79895687538c4bbd956b59b47818dfb9?themeId=21&templateId=8" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <iframe src="https://wordwall.net/es/embed/d9b74bc6de0341c8a9d2bf93acc99bab?themeId=42&templateId=70" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/79895687538c4bbd956b59b47818dfb9?themeId=42&templateId=70" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <iframe src="https://wordwall.net/es/embed/d9b74bc6de0341c8a9d2bf93acc99bab?themeId=21&templateId=30" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                            <iframe src="https://wordwall.net/es/embed/79895687538c4bbd956b59b47818dfb9?themeId=2&templateId=10" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            <div class="carousel-item">
+                                    <div class="card">
+                                <iframe src="https://wordwall.net/es/embed/d9b74bc6de0341c8a9d2bf93acc99bab?themeId=1&templateId=38" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                        
+                            
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -404,6 +361,61 @@
                 </div>
 
 
+                <!--el cocodrilo al que no le gusta el agua-->
+                <div id="el_cocodrilo_al_que_no_le_gustaba_el_agua" class="juegos_por_curso container-fluid m-0" style="display:none;">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
+                        <h3 class="m-4 text-white display-4">El cocodrilo al que no le gustaba el agua</h3>
+                        <div class="col foto_libro_descargar text-center">
+                            <a href="https://drive.google.com/file/d/0Bw7OWQNPSEY2OGMyUDRNQ2FqbG8/view?resourcekey=0-OBh3t8QryEPnhppqFpyyqQ" value="1">
+                                <figure class="figure">
+                                    <img src="img\libros\segundo_basico\el_cocodrilo_al_que_no_le_gustaba_el_agua.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col text-center videos p-0" style="height: 400px; width:600px;">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9NKzDbU4NGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                    <!--carrusel El cocodrilo al que no le gustaba el agua-->
+                    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                            <iframe src="https://wordwall.net/es/embed/c5df2dd465b147f982c5d36d4c0b86d0?themeId=6&templateId=48" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                            <iframe src="https://wordwall.net/es/embed/c5df2dd465b147f982c5d36d4c0b86d0?themeId=1&templateId=5" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                            <iframe src="https://wordwall.net/es/embed/c5df2dd465b147f982c5d36d4c0b86d0?themeId=21&templateId=30" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                            <iframe src="https://wordwall.net/es/embed/c5df2dd465b147f982c5d36d4c0b86d0?themeId=23&templateId=49" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+
                 
             </div>
             
@@ -412,7 +424,7 @@
             <!--footer-->
             <div id="footer" class="container-fluid p-4 m-0">
                 <div class="row">
-                    <span class="text-white">COMPRENDO JUGANDO +569 <br>  © 2021 JumpToFuture</span>
+                    <span class="text-white">COMPRENDO JUGANDO<br>  © 2021 JumpToFuture</span>
                 </div>
 
             </div>
@@ -421,54 +433,56 @@
             
         <script>
             $(document).ready(function(){
+
+                $('#primera_pantalla').hide();
         
-                $( "#igual_a_mi_click" ).click('click', 
+                $( "#la_bruja_mom_click" ).click('click', 
                     function() {
-                    $( "#igual_a_mi" ).toggle();
+                    $( "#la_bruja_mom" ).toggle();
                     
-                    $( "#un_perro_confundido" ).hide();
-                    $( "#el_caleuche" ).hide();
-                    $( "#julieta_estate_quieta" ).hide();
-                    $( "#el_gigante_egoista" ).hide();
+                    $( "#que_apetito_tiene_el_zorrito" ).hide();
+                    $( "#leon_y_su_tercer_deseo" ).hide();
+                    $( "#el_fantasma_de_canterville" ).hide();
+                    $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     }
                 );
 
-                $( "#un_perro_confundido_click" ).click('click', 
+                $( "#que_apetito_tiene_el_zorrito_click" ).click('click', 
                     function() {
-                    $( "#un_perro_confundido" ).toggle();
-                    $( "#igual_a_mi" ).hide();
-                    $( "#el_caleuche" ).hide();
-                    $( "#julieta_estate_quieta" ).hide();
-                    $( "#el_gigante_egoista" ).hide();
+                    $( "#que_apetito_tiene_el_zorrito" ).toggle();
+                    $( "#la_bruja_mom" ).hide();
+                    $( "#leon_y_su_tercer_deseo" ).hide();
+                    $( "#el_fantasma_de_canterville" ).hide();
+                    $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     }
                 );
-                $( "#julieta_estate_quieta_click" ).click('click', 
+                $( "#el_fantasma_de_canterville_click" ).click('click', 
                     function() {
-                    $( "#julieta_estate_quieta" ).toggle();
-                    $( "#un_perro_confundido" ).hide();
-                    $( "#igual_a_mi" ).hide();
-                    $( "#el_caleuche" ).hide();
-                    $( "#el_gigante_egoista" ).hide();
-                    }
-                );
-
-                $( "#el_gigante_egoista_click" ).click('click', 
-                    function() {
-                    $( "#el_gigante_egoista" ).toggle();
-                    $( "#julieta_estate_quieta" ).hide();
-                    $( "#un_perro_confundido" ).hide();
-                    $( "#igual_a_mi" ).hide();
-                    $( "#el_caleuche" ).hide();
+                    $( "#el_fantasma_de_canterville" ).toggle();
+                    $( "#que_apetito_tiene_el_zorrito" ).hide();
+                    $( "#la_bruja_mom" ).hide();
+                    $( "#leon_y_su_tercer_deseo" ).hide();
+                    $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     }
                 );
 
-                $( "#el_caleuche_click" ).click('click', 
+                $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua_click" ).click('click', 
                     function() {
-                    $( "#el_caleuche" ).toggle();
-                    $( "#el_gigante_egoista" ).hide();
-                    $( "#julieta_estate_quieta" ).hide();
-                    $( "#un_perro_confundido" ).hide();
-                    $( "#igual_a_mi" ).hide();
+                    $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).toggle();
+                    $( "#el_fantasma_de_canterville" ).hide();
+                    $( "#que_apetito_tiene_el_zorrito" ).hide();
+                    $( "#la_bruja_mom" ).hide();
+                    $( "#leon_y_su_tercer_deseo" ).hide();
+                    }
+                );
+
+                $( "#leon_y_su_tercer_deseo_click" ).click('click', 
+                    function() {
+                    $( "#leon_y_su_tercer_deseo" ).toggle();
+                    $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
+                    $( "#el_fantasma_de_canterville" ).hide();
+                    $( "#que_apetito_tiene_el_zorrito" ).hide();
+                    $( "#la_bruja_mom" ).hide();
                     }
                 );
             })
@@ -505,21 +519,6 @@
             } else {
             $(multipleCardCarousel).addClass("slide");
         }
-        </script>
-        <script>
-            toastr.options = {
-            "closeButton": true,
-            "progressBar": true,
-            }
-
-            {% if messages %}
-            {% for message in messages %}
-                toastr.{{message.tags }}("{{ message }}")
-            {% endfor %}
-            {% endif %}
-
-            {% block libreria %}
-            {% endblock %} 
-        </script>
+        </script>       
     </body>
 </html>

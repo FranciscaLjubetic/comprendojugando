@@ -27,7 +27,17 @@
             AOS.init();
         </script>
 
-    
+        <div id="primera_pantalla" class="container-fluid primera_pantalla_class m-0 text-center p-4" style="background: linear-gradient(176deg, rgba(56,175,246,0.577468487394958) 0%, rgba(207,232,247,1) 57%, rgba(247,247,247,1) 100%);">
+            <img src="img/buhito.png" alt="logo" style="max-height: 16em; width:auto" class="pt-4 img-fluid">
+            <h1 id="titulo_neon" class="row text-center d-block display-1 p-0 m-0" style="color: rgb(238, 128, 196); line-height:80%"> <br><br> COMPRENDO JUGANDO </h1> 
+            
+
+            <div class="loadingio-spinner-ellipsis-mnej2v1rmv"><div class="ldio-iczp7kjxwwk" style="max-width: 100px; height:auto;">
+                <div></div><div></div><div></div><div></div><div></div>
+                </div></div>
+            
+        </div>
+
         <div id="main_container" class="container-fluid p-0">
             <!--NAVBAR-->
             <nav class="navbar navbar-expand-lg">
@@ -40,9 +50,6 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="nosotros.html">Nosotros</a>
                             </li>
                             </li>
                             <li class="nav-item dropdown">
@@ -74,17 +81,18 @@
             
 
             <!--estructura curso-->
-            <div id="detalle_curso">
+            <div class="detalle_curso">
+                
                 <div><!--TITULO-->
-                    <h3 class="display-6 texto-oscuro">Juegos para cada libro</h3>
+                    <h2 class="texto-oscuro text-center ms-3 pt-4"> Primero Básico: <br> <em> Juegos para cada libro</em></h2>
                 </div>
-                <div id="libros_por_curso" class="section text-center px-2 py-0 m-0">
+                <div class="libros_por_curso section text-center px-2 py-0 m-0">
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-5" style="text-align:center!important; padding: 10px; display:flexbox;">
                         <div class="col  my-4" style="text-align:center!important">
                             <div style="text-align:center; padding: 10px; ">
                                 <img src="img/libros/igual_a_mi_distinto_a_ti.jpeg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Igual a mí, distinto a tí</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">Igual a mí, distinto a tí</h5>
                                     <p class="texto-oscuro">Francisca Solar</p>
                                     <a id="igual_a_mi_click" href="#igual_a_mi" value="1" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
@@ -94,7 +102,7 @@
                             <div style="text-align:center; padding: 10px; height: 375px;">
                                 <img src="img/libros/julieta_estate_quieta.jpeg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Julieta, estate quieta</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">Julieta, estate quieta</h5>
                                     <p class="texto-oscuro">Rosemary Wells</p>
                                     <a id="julieta_estate_quieta_click" href="#julieta_estate_quieta" value="2" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
@@ -104,7 +112,7 @@
                             <div style="text-align:center; padding: 10px; height: 375px;">
                                 <img src="img/libros/un_perro_confundido.jpeg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">Un perro confundido</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">Un perro confundido</h5>
                                     <p class="texto-oscuro">Cecilia Beauchat</p>
                                     <a id="un_perro_confundido_click" href="#un_perro_confundido" value="3" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
@@ -114,7 +122,7 @@
                             <div  style="text-align:center; padding: 10px; height: 375px;">
                                 <img src="img/libros/el_gigante_egoista.jpeg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">El gigante egoísta</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">El gigante egoísta</h5>
                                     <p class="texto-oscuro">Oscar Wilde</p>
                                     <a id="el_gigante_egoista_click" href="#el_gigante_egoista" value="4" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
@@ -124,7 +132,7 @@
                             <div style="text-align:center; padding: 10px; height: 375px;">
                                 <img src="img/libros/el_caleuche.jpeg" class="imagenes_libros" alt="...">
                                 <div>
-                                    <h5 class="m-4 texto-oscuro">El Caleuche</h5>
+                                    <h5 class="mx-3 mt-3 mb-0 texto-oscuro">El Caleuche</h5>
                                     <p class="texto-oscuro">Imactiva</p>
                                     <a id="el_caleuche_click" href="#el_caleuche" value="5" class="btn btn_curso">Ver juegos y videos del libro</a>
                                 </div>
@@ -152,22 +160,22 @@
 
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                        <div class="carousel-item active videos">
+                        <div class="carousel-item active">
                             <div class="card">
                             <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=21&templateId=69"  frameborder="0" allowfullscreen></iframe></div>
                         </div>
                 
-                        <div class="carousel-item videos">
+                        <div class="carousel-item">
                             <div class="card">
                             <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=21&templateId=30"  frameborder="0" allowfullscreen></iframe>            </div>
                         </div>
                 
-                        <div class="carousel-item videos">
+                        <div class="carousel-item">
                             <div class="card">
                             <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=1&templateId=8"  frameborder="0" allowfullscreen></iframe>  </div>
                         </div>
                 
-                        <div class="carousel-item videos">
+                        <div class="carousel-item">
                             <div class="card">
                             <iframe src="https://wordwall.net/es/embed/fb0b0ab717d1459697786ab0c7278d6a?themeId=1&templateId=75"  frameborder="0" allowfullscreen></iframe>
                             </div>
@@ -412,7 +420,7 @@
             <!--footer-->
             <div id="footer" class="container-fluid p-4 m-0">
                 <div class="row">
-                    <span class="text-white">COMPRENDO JUGANDO +569 <br>  © 2021 JumpToFuture</span>
+                    <span class="text-white">COMPRENDO JUGANDO<br>  © 2021 JumpToFuture</span>
                 </div>
 
             </div>
@@ -421,6 +429,8 @@
             
         <script>
             $(document).ready(function(){
+
+                $('#primera_pantalla').hide();
         
                 $( "#igual_a_mi_click" ).click('click', 
                     function() {
@@ -505,21 +515,6 @@
             } else {
             $(multipleCardCarousel).addClass("slide");
         }
-        </script>
-        <script>
-            toastr.options = {
-            "closeButton": true,
-            "progressBar": true,
-            }
-
-            {% if messages %}
-            {% for message in messages %}
-                toastr.{{message.tags }}("{{ message }}")
-            {% endfor %}
-            {% endif %}
-
-            {% block libreria %}
-            {% endblock %} 
-        </script>
+        </script>       
     </body>
 </html>
