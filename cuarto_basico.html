@@ -89,7 +89,7 @@
                 <div class="libros_por_curso section text-center px-2 my-2">
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4" style="text-align:center!important; padding: 10px; display:flexbox;">
                         <div class="col  my-4" style="text-align:center!important">
-                            <div style="text-align:center; margin: 20px;">
+                            <div style="text-align:center; margin: 10px; height: 390px;">
                                 <img src="img\libros\cuarto_basico\bartolo_y_los_cocodrilos_magicos.jpeg" class="imagenes_libros" alt="...">
                                 <div>
                                     <h5 class="mx-3 mt-3 mb-0 texto-oscuro">Bartolo y los cocodrilos mágicos</h5>
@@ -136,7 +136,7 @@
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
                         <h3 class="m-4 text-white display-4">Bartolo y los cocodrilos mágicos</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="https://www.academia.edu/43160092/Bartolo_y_los_cocodrilos_m%C3%A1gicos" value="1">
+                            <a href="https://www.mauricioparedes.com/b4.html" value="1">
                                 <figure class="figure">
                                     <img src="img\libros\cuarto_basico\bartolo_y_los_cocodrilos_magicos.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
@@ -144,7 +144,6 @@
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7_gCzn5AVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
@@ -154,20 +153,20 @@
                 </div>
 
                 
-                <!--UN ESQUELETO DE VACACIONES-->
-                <div id="que_apetito_tiene_el_zorrito" class="juegos_por_curso container-fluid m-0" style="display:none;">
+                <!--PAPELUCHO-->
+                <div id="papelucho" class="juegos_por_curso container-fluid m-0" style="display:none;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">Qué apetito que tiene el zorrito</h3>
+                        <h3 class="m-4 text-white display-4">Papelucho</h3>
                         <div class="col foto_libro_descargar text-center">
-                            <a href="https://drive.google.com/file/d/11a6-B9gDB1auJrQ6T0dCpCAIHupf6SkM/view" value="1">
+                            <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxlbG9yZW56b3R8Z3g6NDkxY2E1ZTM4ZTFiN2FkYw" value="1">
                                 <figure class="figure">
-                                    <img src="img\libros\segundo_basico\que_apetito_tiene_el_zorrito.jpg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <img src="img\libros\cuarto_basico\papelucho.jpeg" class="figure-img img-fluid rounded imagenes_videos" alt="A generic square placeholder image with rounded corners in a figure.">
                                 <figcaption class="figure-caption text-right text-white">click para descargar</figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div class="col text-center videos p-0" style="height: 400px; width:600px;">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9tATPmROYbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JkdwRQSe_R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     
@@ -178,10 +177,10 @@
                     
                 </div>
 
-                <!--LA CABANA EN EL ARBOL-->
+                <!--¡Ay, cuánto me quiero!-->
                 <div id="leon_y_su_tercer_deseo" class="juegos_por_curso container-fluid m-0" style="display:none;">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 p-2">
-                        <h3 class="m-4 text-white display-4">León y su tercer deseo</h3>
+                        <h3 class="m-4 text-white display-4">¡Ay, cuánto me quiero!</h3>
                         <div class="col foto_libro_descargar text-center">
                             <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=Y2FtcG9zZGVtYWlwdS5jbHxhdWxhLXZpcnR1YWx8Z3g6NjZlZjJhNWM4YjQ5MTMw" value="1">
                                 <figure class="figure">
@@ -244,21 +243,21 @@
 
                 $('#primera_pantalla').hide();
         
-                $( "#el_lugar_mas_bonito_del_mundo_click" ).click('click', 
+                $( "#bartolo_y_los_cocodrilos_magicos_click" ).click('click', 
                     function() {
-                    $( "#el_lugar_mas_bonito_del_mundo" ).toggle();
+                    $( "#bartolo_y_los_cocodrilos_magicos" ).toggle();
                     
-                    $( "#que_apetito_tiene_el_zorrito" ).hide();
+                    $( "#papelucho" ).hide();
                     $( "#leon_y_su_tercer_deseo" ).hide();
                     $( "#el_fantasma_de_canterville" ).hide();
                     $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     }
                 );
 
-                $( "#que_apetito_tiene_el_zorrito_click" ).click('click', 
+                $( "#papelucho_click" ).click('click', 
                     function() {
-                    $( "#que_apetito_tiene_el_zorrito" ).toggle();
-                    $( "#el_lugar_mas_bonito_del_mundo" ).hide();
+                    $( "#papelucho" ).toggle();
+                    $( "#bartolo_y_los_cocodrilos_magicos" ).hide();
                     $( "#leon_y_su_tercer_deseo" ).hide();
                     $( "#el_fantasma_de_canterville" ).hide();
                     $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
@@ -267,8 +266,8 @@
                 $( "#el_fantasma_de_canterville_click" ).click('click', 
                     function() {
                     $( "#el_fantasma_de_canterville" ).toggle();
-                    $( "#que_apetito_tiene_el_zorrito" ).hide();
-                    $( "#el_lugar_mas_bonito_del_mundo" ).hide();
+                    $( "#papelucho" ).hide();
+                    $( "#bartolo_y_los_cocodrilos_magicos" ).hide();
                     $( "#leon_y_su_tercer_deseo" ).hide();
                     $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     }
@@ -278,8 +277,8 @@
                     function() {
                     $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).toggle();
                     $( "#el_fantasma_de_canterville" ).hide();
-                    $( "#que_apetito_tiene_el_zorrito" ).hide();
-                    $( "#el_lugar_mas_bonito_del_mundo" ).hide();
+                    $( "#papelucho" ).hide();
+                    $( "#bartolo_y_los_cocodrilos_magicos" ).hide();
                     $( "#leon_y_su_tercer_deseo" ).hide();
                     }
                 );
@@ -289,8 +288,8 @@
                     $( "#leon_y_su_tercer_deseo" ).toggle();
                     $( "#el_cocodrilo_al_que_no_le_gustaba_el_agua" ).hide();
                     $( "#el_fantasma_de_canterville" ).hide();
-                    $( "#que_apetito_tiene_el_zorrito" ).hide();
-                    $( "#el_lugar_mas_bonito_del_mundo" ).hide();
+                    $( "#papelucho" ).hide();
+                    $( "#bartolo_y_los_cocodrilos_magicos" ).hide();
                     }
                 );
             })
